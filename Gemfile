@@ -37,6 +37,7 @@ group :development, :test do
   gem 'mysql2', '>= 0.3.18', '< 0.5'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  gem 'rails-flog', require: 'flog'
 end
 
 group :development do
@@ -47,6 +48,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'pry-byebug'
+  gem 'annotate'
 end
 
 group :production do
