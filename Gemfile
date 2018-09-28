@@ -29,6 +29,8 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 gem 'bootstrap', '~> 4.0.0'
+gem 'kaminari'
+gem 'rails-i18n'
 
 group :development, :test do
   # Use mysql as the database for Active Record
