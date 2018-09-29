@@ -19,3 +19,14 @@ if Rails.env == 'development'
         { name: 'Django2' },
     ])
 end
+
+if Rails.env == 'production'
+    Tag.create([
+        { name: 'Ruby' },
+        { name: 'Ruby on Rails4' },
+        { name: 'Ruby on Rails5' },
+        { name: 'Python2' },
+        { name: 'Python3' },
+        { name: 'Django2' },
+    ])
+end
