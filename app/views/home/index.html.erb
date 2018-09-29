@@ -1,1 +1,6 @@
-<%= render partial: 'users/login_form' %>
+<% if @current_user %>
+    <h1>ホーム</h1>
+    <%= @current_user.name %>
+<% else %>
+    <%= render partial: 'users/login_form' %>
+<% end %>
